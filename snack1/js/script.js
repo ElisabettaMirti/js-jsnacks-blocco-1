@@ -2,7 +2,7 @@
 // Il software stampa il maggiore.
 
 let numA = Number.parseInt.prompt("Type a number");
-let numB = Number.parseInt.prompt("Type a number");
+let numB = Number.parseInt.prompt("Type another number");
 
 if (numA > numB) {
     console.log(numA)
