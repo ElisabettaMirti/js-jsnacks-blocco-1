@@ -7,3 +7,9 @@ let guestName = prompt("Scrivi il tuo nome");
 
 console.log(guestList.includes(guestName))
 
+if (guestList.includes(guestName)) {
+    alert ("Sei sulla lista, puoi entrare")
+} else {
+    alert ("Mi spiace, non sei sulla lista, non puoi entrare")
+}
+
